@@ -5,6 +5,6 @@ branches:
 projects:
   BetterInfo:
     libs:
-      - src: Vecnavium/FormsUI/libFormsUI
-        version: ^1.1.2
+      - src: Vecnavium/FormsUI/FormsUI
+        version: ^1.0.0
 ...
