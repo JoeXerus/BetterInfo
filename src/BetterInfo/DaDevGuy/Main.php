@@ -29,7 +29,7 @@ class Main extends PluginBase implements Listener{
         $health = $player->getHealth();
         $maxhealth = $player->getHealth()->getMaxHealth();
         $line = "\n";
-        $info = str_replace("{health}", "{name}", "{maxhealth}", "{line}", [$health, $name, $maxhealth, $line], $this->getConfig()->get("ui.content"));
+        $info = str_replace(['{health}', '{name}', '{maxhealth}', '{line}'], [$health, $name, $maxhealth, $line], $this->getConfig()->get("ui.content"));
         $form->setTitle($this->getConfig()->get("ui.title"));
         $form->setContent($info);
         $player->sendForm($form);
