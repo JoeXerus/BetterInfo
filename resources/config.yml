@@ -3,6 +3,6 @@
 config-ver: 1
 
 #CONFIG
-
+#Avaliable Tags {name}, {health}, {maxhealth}, {line} 
 ui.title: "BetterInfo UI"
-ui.content: ""
+ui.content: "=================================={line}{line}name: {name}{line}{line}health: {health}/{maxhealth}{line}{line}=================================="
