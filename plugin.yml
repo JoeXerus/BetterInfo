@@ -11,4 +11,4 @@ commands:
 
 permissions: 
  betterinfo.info.cmd:
-  https://discord.gg/f7Ep2Jj6default: op
+  default: op
